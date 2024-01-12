@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Josefin Sans', sens-serif ;
+    box-sizing:border-box;
+}
+body {
+ background-color: rgb(164, 161, 161);
+}
+.app{
+    background-image: url(images/bg-pattern-desktop.jpg.svg);
+    background-color: hsl(0, 69%, 95%);
+    display:flex;
+    max-width:900px;
+    height: 450px;
+    margin:100px auto 0;
+}
+
+.description{
+    flex: 1;
+    padding: 5%;
+    display:flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+    align-items: start;
+    padding: 20px 120px 80px;
+}
+#first{
+    font-size: 50px;
+    color:hsl(0, 45%, 39%);
+    font-weight:300;
+    font-family:'Montserrat', sans-serif;
+}
+#land{
+    font-size:70px;
+    font-weight: 400;
+    font-family:'Overpass', sans-serif;
+}
+#desc{
+    font-size:10px;
+    color:hsl(0, 57%, 79%);
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.row{
+    display: flex;
+    border:4px;
+    color:hsl(0, 71%, 99%);
+    align-items: center;
+    width: 300px;
+    justify-content:space-between;
+    background: hsl(0, 74%, 92%);
+    border-radius: 30px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline:none;
+    background: hsl(0, 74%, 92%);
+    padding: 10px;
+    font-weight: 14px;
+    border-radius: 40px;
+}
+button{
+    border: none;
+    outline: none;
+    width: 70px;
+    height:40px;
+    align-items: center;
+    background: hsl(0, 79%, 78%);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.hero-section{
+    background-color: #fff;
+    background-image: url(images/hero-desktop.jpg);
+    background-size: cover;
+    width:40%;
+    height:100%;
+},
